@@ -1,15 +1,11 @@
 {
   "hero_title": "WarNat Tech ®",
-  "hero_subtitle": "A SEGURANÇA MAIS FODA DE BELO HORIZONTE",
-  "hero_text": "CFTV 8K • MONITORAMENTO 24H COM REAÇÃO • PORTARIA REMOTA • ALARMES • CONTROLE DE ACESSO",
-  "endereco": "Rua dos Aimorés, 3017 – Barro Preto, Belo Horizonte – MG",
+  "hero_subtitle": "A SEGURANÇA PARA SUA CASA É SUA EMPRESA EM BELO HORIZONTE",
+  "hero_text": "CFTV 8K • MONITORAMENTO 24H",
+  "endereco": "Atendimento em Belo Horizonte MG e região metropolitana",
   "telefone": "(31) 98352-5816",
   "services": [
     { "icon": "fas fa-video", "title": "CFTV INTELIGENTE", "description": "Câmeras 8K com IA que identificam placas e rostos antes do marginal chegar." },
-    { "icon": "fas fa-shield-alt", "title": "MONITORAMENTO 24H COM REAÇÃO", "description": "Não é só gravação. Temos equipe armada pronta pra agir." },
-    { "icon": "fas fa-building", "title": "PORTARIA REMOTA", "description": "Economize 80% e tenha segurança 100%." },
-    { "icon": "fas fa-bell", "title": "ALARMES MONITORADOS", "description": "Alarme que grita, liga pra você e pra polícia." },
-    { "icon": "fas fa-key", "title": "CONTROLE DE ACESSO", "description": "Biometria, tag, facial. Só entra quem você quiser." },
-    { "icon": "fas fa-bolt", "title": "CERCA ELÉTRICA + SENSORE", "description": "Sistema completo com choque e alerta imediato." }
+    { "icon": "fas fa-shield-alt", "title": "MONITORAMENTO 24H", "description": "Previna-se com Warnat e proteja a sua casa e quem você ama." },
   ]
 }
