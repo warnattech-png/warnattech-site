@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: main
+
+site_url: https://seu-site.netlify.app
+display_url: https://warnattech.com.br
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "home"
+    label: "Página Inicial"
+    files:
+      - label: "Conteúdo do Site"
+        name: "home"
+        file: "content.json"
+        fields:
+          - { label: "Título Principal", name: "hero_title", widget: "string" }
+          - { label: "Subtítulo", name: "hero_subtitle", widget: "string" }
+          - { label: "Descrição do Hero", name: "hero_description", widget: "text" }
+          - { label: "Diferenciais (barra vertical)", name: "diferenciais", widget: "text" }
+          - { label: "Endereço", name: "endereco", widget: "string" }
+          - { label: "Telefone", name: "telefone", widget: "string" }
+          - { label: "Serviços", name: "services", widget: "list", fields: [
+              { label: "Título do Serviço", name: "title", widget: "string" },
+              { label: "Descrição do Serviço", name: "description", widget: "text" }
+            ] }
