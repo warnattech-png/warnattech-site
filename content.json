@@ -1,0 +1,26 @@
+{
+  "hero_title": "WarNat Tech ®",
+  "hero_subtitle": "A SEGURANÇA MAIS FODA DE BELO HORIZONTE",
+  "hero_description": "Câmeras 8K com IA que pegam placa de carro à noite • Reconhecimento facial • Alarmes com reação imediata • Portaria remota • Monitoramento 24h",
+  "diferenciais": "Instalação em 24h ou é GRÁTIS • Garantia de 5 anos • Parcelamento em 24x sem juros • Mais de 500 clientes protegidos em BH",
+  "endereco": "Rua dos Aimorés, 3017 – Barro Preto, Belo Horizonte – MG",
+  "telefone": "(31) 98352-5816",
+  "services": [
+    {
+      "title": "CFTV 8K com IA",
+      "description": "Câmeras Intelbras/Hikvision que identificam pessoas e veículos antes do bandido chegar perto. Visão noturna colorida, alerta no celular em 2 segundos."
+    },
+    {
+      "title": "Monitoramento 24h com Reação",
+      "description": "Central própria + equipe pronta pra agir. Não é só gravação – é proteção de verdade."
+    },
+    {
+      "title": "Portaria Remota & Controle de Acesso",
+      "description": "Reduza 80% do custo com portaria e aumente 100% a segurança."
+    },
+    {
+      "title": "Alarmes + Cerca Elétrica + Sensores",
+      "description": "Sistema completo que grita, liga pra você e pra polícia se precisar."
+    }
+  ]
+}
