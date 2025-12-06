@@ -11,19 +11,30 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <style>
-        body { font-family: 'Montserrat', sans-serif; background:#0a0a0a; color:#fff; }
+        :root {
+            --azure-primary: #0078D4;
+            --azure-dark: #106EBE;
+            --azure-light: #4B8FFB;
+            --bg-dark: #0B1622;
+            --card-bg: #151F2E;
+            --text-muted: #B3C7E6;
+        }
+        body { font-family: 'Montserrat', sans-serif; background:#0B1622; color:#fff; }
         h1, h2, h3 { font-weight:800; text-transform:uppercase; }
-        .hero { background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://images.unsplash.com/photo-1581093458791-1d0e1c73c8e7?q=80&w=2070') center/cover no-repeat; height:100vh; display:flex; align-items:center; }
-        .btn-warnat { background:#e74c3c; border:none; padding:18px 40px; font-size:1.5rem; border-radius:50px; box-shadow:0 10px 30px rgba(231,76,60,0.5); }
-        .btn-warnat:hover { background:#c0392b; transform:scale(1.05); }
+        .hero { background: linear-gradient(rgba(11,22,34,0.92), rgba(11,22,34,0.92)), url('https://images.unsplash.com/photo-1581093458791-1d0e1c73c8e7?q=80&w=2070') center/cover no-repeat; height:100vh; display:flex; align-items:center; }
+        .btn-warnat { background:var(--azure-primary); border:none; padding:18px 40px; font-size:1.5rem; border-radius:50px; box-shadow:0 10px 30px rgba(0,120,212,0.5); transition:0.3s; }
+        .btn-warnat:hover { background:var(--azure-dark); transform:scale(1.05); }
         .btn-whatsapp { background:#25D366; color:white; }
-        .card-servico { background:#111; border:none; transition:0.4s; height:100%; }
-        .card-servico:hover { transform:translateY(-20px); box-shadow:0 20px 40px rgba(231,76,60,0.4); }
+        .btn-whatsapp:hover { background:#128C7E; }
+        .card-servico { background:var(--card-bg); border:none; transition:0.4s; height:100%; border-radius:15px; }
+        .card-servico:hover { transform:translateY(-20px); box-shadow:0 20px 40px rgba(0,120,212,0.4); }
         .fixed-whatsapp { position:fixed; bottom:20px; right:20px; z-index:9999; animation:pulse 2s infinite; }
         @keyframes pulse { 0% { transform:scale(1); } 50% { transform:scale(1.1); } 100% { transform:scale(1); } }
-        .text-red { color:#e74c3c; }
+        .text-azure { color:var(--azure-primary); }
         .navbar-brand { font-size:2rem; }
-        .stat-number { font-size:4rem; font-weight:800; color:#e74c3c; }
+        .stat-number { font-size:4.5rem; font-weight:800; color:var(--azure-primary); }
+        .navbar-dark .navbar-nav .nav-link { color: #B3C7E6; }
+        .navbar-dark .navbar-nav .nav-link:hover { color: var(--azure-primary); }
     </style>
 </head>
 <body>
@@ -31,25 +42,25 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold text-danger" href="#">WarNat Tech ®</a>
+            <a class="navbar-brand fw-bold text-azure" href="#">WarNat Tech ®</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#inicio">Início</a></li>
-                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#servicos">Serviços</a></li>
-                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#por-que">Por Que Nós</a></li>
-                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#numeros">Números</a></li>
-                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#contato">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#por-que">Por Que Nós</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#numeros">Números</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#contato">Contato</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- HERO (ESTILO EMIVE TOTAL) -->
+    <!-- HERO (MESMO CONTEÚDO, CORES AZURE) -->
     <section id="inicio" class="hero text-center">
         <div class="container">
             <h1 class="display-1 fw-bold" id="hero_title">WARNAT TECH ®</h1>
-            <h2 class="display-4 fw-bold text-red mt-4" id="hero_subtitle">A SEGURANÇA PARA SUA CASA É SUA EMPRESA EM BELO HORIZONTE</h2>
+            <h2 class="display-4 fw-bold text-azure mt-4" id="hero_subtitle">A SEGURANÇA MAIS FODA DE BELO HORIZONTE</h2>
             <p class="lead display-6 mt-4" id="hero_text">CFTV 8K • MONITORAMENTO 24H COM REAÇÃO • PORTARIA REMOTA • ALARMES • CONTROLE DE ACESSO</p>
             <a href="https://wa.me/5531983525816?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20or%C3%A7amento%20AGORA!" class="btn btn-warnat btn-lg mt-5 btn-whatsapp">
                 <i class="fab fa-whatsapp"></i> ORÇAMENTO EM 60 SEGUNDOS – (31) 98352-5816
@@ -59,19 +70,19 @@
     </section>
 
     <!-- SERVIÇOS -->
-    <section id="servicos" class="bg-black py-5">
+    <section id="servicos" class="bg-dark py-5">
         <div class="container">
-            <h2 class="text-center display-4 text-red mb-5">SOLUÇÕES QUE REALMENTE PROTEGEM</h2>
+            <h2 class="text-center display-4 text-azure mb-5">SOLUÇÕES QUE REALMENTE PROTEGEM</h2>
             <div class="row g-5" id="services_container">
                 <!-- Serviços carregados do content.json -->
             </div>
         </div>
     </section>
 
-    <!-- POR QUE NÓS + NÚMEROS -->
-    <section id="numeros" class="bg-dark text-center py-5">
+    <!-- NÚMEROS -->
+    <section id="numeros" class="bg-black text-center py-5">
         <div class="container">
-            <h2 class="display-4 text-red mb-5">NÚMEROS QUE PROVAM QUE SOMOS IMBATÍVEIS</h2>
+            <h2 class="display-4 text-azure mb-5">NÚMEROS QUE PROVAM QUE SOMOS IMBATÍVEIS</h2>
             <div class="row">
                 <div class="col-md-3"><div class="stat-number" id="stat1">500+</div><p>Clientes Protegidos</p></div>
                 <div class="col-md-3"><div class="stat-number" id="stat2">10.000+</div><p>Câmeras Instaladas</p></div>
@@ -85,9 +96,9 @@
     </section>
 
     <!-- CONTATO -->
-    <section id="contato" class="bg-black text-center py-5">
+    <section id="contato" class="bg-dark text-center py-5">
         <div class="container">
-            <h2 class="display-4 text-red">PROTEJA O QUE É SEU AGORA MESMO</h2>
+            <h2 class="display-4 text-azure">PROTEJA O QUE É SEU AGORA MESMO</h2>
             <p class="fs-2 mt-4" id="endereco">Rua dos Aimorés, 3017 – Barro Preto, Belo Horizonte – MG</p>
             <p class="display-5 mt-3" id="telefone">(31) 98352-5816</p>
             <a href="https://wa.me/5531983525816?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20or%C3%A7amento%20AGORA!" class="btn btn-warnat btn-lg mt-5 btn-whatsapp">
@@ -115,7 +126,6 @@
             if (data.endereco) document.getElementById('endereco').innerText = data.endereco;
             if (data.telefone) document.getElementById('telefone').innerText = data.telefone;
 
-            // Carrega serviços
             const container = document.getElementById('services_container');
             container.innerHTML = '';
             data.services.forEach(s => {
@@ -123,19 +133,12 @@
               col.className = 'col-lg-4';
               col.innerHTML = `
                 <div class="card-servico p-5 text-center h-100">
-                  <i class="${s.icon} fa-4x text-red mb-4"></i>
+                  <i class="${s.icon} fa-4x text-azure mb-4"></i>
                   <h3>${s.title}</h3>
                   <p>${s.description}</p>
                 </div>`;
               container.appendChild(col);
             });
-
-            // Carrega números (você pode adicionar mais no CMS depois)
-            if (data.stats) {
-              document.getElementById('stat1').innerText = data.stats.clientes;
-              document.getElementById('stat2').innerText = data.stats.cameras;
-              // etc
-            }
           });
     </script>
 </body>
