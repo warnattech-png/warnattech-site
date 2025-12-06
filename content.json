@@ -1,14 +1,43 @@
 {
   "hero_title": "WarNat Tech ®",
-  "hero_subtitle": "A SEGURANÇA PARA SUA CASA É SUA EMPRESA EM BELO HORIZONTE",
-  "hero_text": "CFTV 8K • MONITORAMENTO 24H",
+  "hero_subtitle": "A MELHOR INSTALAÇÃO DE CÂMERAS DE SEGURANÇA DE BELO HORIZONTE",
+  "hero_text": "CFTV 8K COM IA • RECONHECIMENTO FACIAL • LEITURA DE PLACAS À NOITE • MONITORAMENTO 24H COM REAÇÃO • INSTALAÇÃO EM 24H OU É GRÁTIS",
   "telefone": "(31) 98352-5816",
   "services": [
-    { "icon": "fas fa-video", "title": "CFTV INTELIGENTE", "description": "Câmeras 8K com IA que identificam placas e rostos antes do marginal chegar." },
-    { "icon": "fas fa-shield-alt", "title": "MONITORAMENTO 24H COM REAÇÃO", "description": "Não é só gravação. Temos equipe armada pronta pra agir." },
-    { "icon": "fas fa-building", "title": "PORTARIA REMOTA", "description": "Economize 80% e tenha segurança 100%." },
-    { "icon": "fas fa-bell", "title": "ALARMES MONITORADOS", "description": "Alarme que grita, liga pra você e pra polícia." },
-    { "icon": "fas fa-key", "title": "CONTROLE DE ACESSO", "description": "Biometria, tag, facial. Só entra quem você quiser." },
-    { "icon": "fas fa-bolt", "title": "CERCA ELÉTRICA + SENSORE", "description": "Sistema completo com choque e alerta imediato." }
+    {
+      "icon": "fas fa-video",
+      "title": "CFTV 8K COM INTELIGÊNCIA ARTIFICIAL",
+      "description": "Câmeras Intelbras/Hikvision última geração com reconhecimento facial, leitura de placas à noite, visão noturna colorida, alerta em 2 segundos e gravação em nuvem criptografada."
+    },
+    {
+      "icon": "fas fa-shield-alt",
+      "title": "MONITORAMENTO 24H COM REAÇÃO IMEDIATA",
+      "description": "Central própria 24 horas com equipe pronta para agir. Se algo acontecer, nós reagimos na hora: ligação para você, vizinhos ou polícia."
+    },
+    {
+      "icon": "fas fa-tools",
+      "title": "INSTALAÇÃO PROFISSIONAL + SUPORTE 24/7",
+      "description": "Projeto personalizado, cabeamento oculto, configuração perfeita e teste real. Instalação em até 24h ou é GRÁTIS. Garantia 5 anos + suporte técnico remoto e presencial."
+    },
+    {
+      "icon": "fas fa-network-wired",
+      "title": "INFRAESTRUTURA E REDES",
+      "description": "Planejamento e implantação de redes LAN/Wi-Fi\nConfiguração profissional de roteadores, switches, access points e firewalls\nCabeamento estruturado\nOtimização de velocidade e cobertura"
+    },
+    {
+      "icon": "fas fa-server",
+      "title": "SERVIDORES, BACKUP E VIRTUALIZAÇÃO",
+      "description": "Instalação e configuração de Windows Server\nCriação de usuários, permissões e pastas compartilhadas\nRotinas automáticas de backup e recuperação de desastres\nVirtualização com Hyper-V ou VMware"
+    },
+    {
+      "icon": "fas fa-headset",
+      "title": "SUPORTE REMOTO E PRESENCIAL",
+      "description": "Diagnóstico rápido e solução de problemas (hardware e software)\nSuporte remoto imediato via AnyDesk/TeamViewer\nManutenção preventiva e corretiva\nAtendimento em até 2 horas em Belo Horizonte"
+    },
+    {
+      "icon": "fas fa-desktop",
+      "title": "MONTAGEM E MANUTENÇÃO DE COMPUTADORES",
+      "description": "Montagem de PCs sob medida com o melhor custo x desempenho do mercado\nUpgrades de SSD, RAM, placa de vídeo\nLimpeza completa, troca de pasta térmica\nFormatação e instalação de softwares"
+    }
   ]
 }
