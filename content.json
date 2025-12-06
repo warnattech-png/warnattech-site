@@ -1,8 +1,7 @@
 {
   "hero_title": "WarNat Tech ®",
-  "hero_subtitle": "A SEGURANÇA MAIS FODA DE BELO HORIZONTE",
-  "hero_text": "CFTV 8K • MONITORAMENTO 24H COM REAÇÃO • PORTARIA REMOTA • ALARMES • CONTROLE DE ACESSO",
-  "endereco": "Rua dos Aimorés, 3017 – Barro Preto, Belo Horizonte – MG",
+  "hero_subtitle": "A SEGURANÇA PARA SUA CASA É SUA EMPRESA EM BELO HORIZONTE",
+  "hero_text": "CFTV 8K • MONITORAMENTO 24H",
   "telefone": "(31) 98352-5816",
   "services": [
     { "icon": "fas fa-video", "title": "CFTV INTELIGENTE", "description": "Câmeras 8K com IA que identificam placas e rostos antes do marginal chegar." },
