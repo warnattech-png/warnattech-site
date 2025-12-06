@@ -1,6 +1,6 @@
 {
   "hero_title": "WarNat Tech ®",
-  "hero_subtitle": "A MELHOR INSTALAÇÃO DE CÂMERAS DE SEGURANÇA DE BELO HORIZONTE",
+  "hero_subtitle": "A SEGURANÇA PARA SUA CASA E SUA EMPRESA EM BELO HORIZONTE",
   "hero_text": "CFTV 8K COM IA • RECONHECIMENTO FACIAL • LEITURA DE PLACAS À NOITE • MONITORAMENTO 24H COM REAÇÃO IMEDIATA • INSTALAÇÃO EM 24H OU É GRÁTIS",
   "endereco": "Rua dos Aimorés, 3017 – Barro Preto, Belo Horizonte – MG",
   "telefone": "(31) 98352-5816",
@@ -8,7 +8,7 @@
     {
       "icon": "fas fa-video",
       "title": "CFTV 8K COM INTELIGÊNCIA ARTIFICIAL",
-      "description": "Câmeras Intelbras/Hikvision última geração com reconhecimento facial, leitura de placas à noite, visão noturna colorida, alerta em 2 segundos e gravação em nuvem."
+      "description": "Câmeras Intelbras/Hikvision última geração com reconhecimento facial, leitura de placas à noite, visão noturna colorida, alerta em 2 segundos e gravação em nuvem criptografada."
     },
     {
       "icon": "fas fa-shield-alt",
@@ -18,14 +18,34 @@
     {
       "icon": "fas fa-tools",
       "title": "INSTALAÇÃO PROFISSIONAL + SUPORTE 24/7",
-      "description": "Projeto personalizado, cabeamento oculto, configuração perfeita. Instalação em até 24h ou é GRÁTIS. Garantia 5 anos."
+      "description": "Projeto personalizado, cabeamento oculto, configuração perfeita. Instalação em até 24h ou é GRÁTIS. Garantia 5 anos + suporte remoto/presencial."
+    },
+    {
+      "icon": "fas fa-network-wired",
+      "title": "INFRAESTRUTURA E REDES",
+      "description": "Planejamento e implantação de redes LAN/Wi-Fi\nConfiguração de roteadores, switches, access points e firewalls\nCabeamento estruturado\nOtimização total de velocidade e cobertura"
+    },
+    {
+      "icon": "fas fa-server",
+      "title": "SERVIDORES, BACKUP E VIRTUALIZAÇÃO",
+      "description": "Instalação/configuração de Windows Server\nActive Directory, usuários, permissões e pastas compartilhadas\nBackups automáticos e recuperação de desastres\nVirtualização Hyper-V ou VMware"
+    },
+    {
+      "icon": "fas fa-headset",
+      "title": "SUPORTE REMOTO E PRESENCIAL",
+      "description": "Diagnóstico rápido (hardware/software)\nSuporte imediato via AnyDesk/TeamViewer\nManutenção preventiva/corretiva\nAtendimento em até 2h em BH"
+    },
+    {
+      "icon": "fas fa-desktop",
+      "title": "MONTAGEM E MANUTENÇÃO DE PCS",
+      "description": "Montagem de PCs sob medida (melhor custo x desempenho)\nUpgrades de SSD, RAM, placa de vídeo\nLimpeza completa + troca de pasta térmica\nFormatação e instalação de softwares"
     }
   ],
   "packages": [
     {
       "promocao": true,
       "name": "PACOTE RESIDENCIAL BÁSICO",
-      "description": "4 câmeras Full HD 1080p\nDVR 8 canais com HD 1TB\nApp gratuito no celular\nInstalação completa + configuração",
+      "description": "4 câmeras Full HD 1080p + DVR 8 canais + HD 1TB + App no celular + Instalação completa",
       "old_price": "5.990",
       "price": "4.290",
       "parcelamento": "em até 24x sem juros",
@@ -33,8 +53,8 @@
     },
     {
       "promocao": true,
-      "name": "PACOTE RESIDENCIAL PREMIUM",
-      "description": "8 câmeras 4K com IA (reconhecimento facial + leitura de placas)\nNVR IP 16 canais com HD 2TB\nGravação em nuvem inclusa 30 dias",
+      "name": "PACOTE RESIDENCIAL PREMIUM – MAIS VENDIDO",
+      "description": "8 câmeras 4K com IA (reconhecimento facial + placas) + NVR 16 canais + HD 2TB + Nuvem 30 dias",
       "old_price": "12.990",
       "price": "9.990",
       "parcelamento": "em até 24x sem juros",
@@ -42,8 +62,8 @@
     },
     {
       "promocao": false,
-      "name": "PACOTE COMERCIAL / CONDOMÍNIO",
-      "description": "12 a 16 câmeras 4K/8K com IA\nNVR profissional + HD 4TB\nControle de acesso integrado opcional",
+      "name": "PACOTE EMPRESARIAL / CONDOMÍNIO",
+      "description": "12-16 câmeras 4K/8K com IA + NVR profissional + HD 4TB + Controle de acesso opcional",
       "price": "16.990",
       "parcelamento": "em até 24x sem juros",
       "monitoramento": "299"
