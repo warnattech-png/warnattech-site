@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WarNat Tech ® – A segurança mais agressiva de Belo Horizonte. CFTV 8K com IA, monitoramento 24h com reação armada, portaria remota, alarmes e controle de acesso. Instalação em 24h ou GRÁTIS • (31) 98352-5816">
-    <meta name="keywords" content="câmeras de segurança belo horizonte,cftv bh,monitoramento 24h bh,portaria remota bh,alarme bh,segurança eletrônica bh,instalação câmeras bh">
-    <title>WarNat Tech ® - Segurança Eletrônica em Belo Horizonte | CFTV • Monitoramento • Portaria Remota</title>
+    <meta name="description" content="WarNat Tech ® – Instalação profissional de câmeras de segurança em Belo Horizonte. CFTV 8K com IA, reconhecimento facial, leitura de placas à noite, monitoramento 24h com reação imediata. Orçamento grátis • Instalação em 24h ou é GRÁTIS • (31) 98352-5816">
+    <meta name="keywords" content="câmeras de segurança belo horizonte, instalação câmeras bh, cftv bh, monitoramento 24h bh, câmeras intelbras bh, hikvision belo horizonte, segurança residencial bh">
+    <title>WarNat Tech ® - Instalação de Câmeras de Segurança em Belo Horizonte | CFTV 8K com IA</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
@@ -14,10 +14,8 @@
         :root {
             --azure-primary: #0078D4;
             --azure-dark: #106EBE;
-            --azure-light: #4B8FFB;
             --bg-dark: #0B1622;
             --card-bg: #151F2E;
-            --text-muted: #B3C7E6;
         }
         body { font-family: 'Montserrat', sans-serif; background:#0B1622; color:#fff; }
         h1, h2, h3 { font-weight:800; text-transform:uppercase; }
@@ -25,16 +23,14 @@
         .btn-warnat { background:var(--azure-primary); border:none; padding:18px 40px; font-size:1.5rem; border-radius:50px; box-shadow:0 10px 30px rgba(0,120,212,0.5); transition:0.3s; }
         .btn-warnat:hover { background:var(--azure-dark); transform:scale(1.05); }
         .btn-whatsapp { background:#25D366; color:white; }
-        .btn-whatsapp:hover { background:#128C7E; }
-        .card-servico { background:var(--card-bg); border:none; transition:0.4s; height:100%; border-radius:15px; }
-        .card-servico:hover { transform:translateY(-20px); box-shadow:0 20px 40px rgba(0,120,212,0.4); }
+        .card-servico, .card-pacote { background:var(--card-bg); border:none; transition:0.4s; height:100%; border-radius:15px; }
+        .card-servico:hover, .card-pacote:hover { transform:translateY(-20px); box-shadow:0 20px 40px rgba(0,120,212,0.4); }
         .fixed-whatsapp { position:fixed; bottom:20px; right:20px; z-index:9999; animation:pulse 2s infinite; }
         @keyframes pulse { 0% { transform:scale(1); } 50% { transform:scale(1.1); } 100% { transform:scale(1); } }
         .text-azure { color:var(--azure-primary); }
-        .navbar-brand { font-size:2rem; }
-        .stat-number { font-size:4.5rem; font-weight:800; color:var(--azure-primary); }
-        .navbar-dark .navbar-nav .nav-link { color: #B3C7E6; }
-        .navbar-dark .navbar-nav .nav-link:hover { color: var(--azure-primary); }
+        .price { font-size:3rem; font-weight:800; color:var(--azure-primary); }
+        .old-price { text-decoration:line-through; color:#666; font-size:1.5rem; }
+        .badge-promocao { background:#e74c3c; padding:8px 20px; border-radius:30px; font-size:1rem; }
     </style>
 </head>
 <body>
@@ -48,7 +44,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link fs-5" href="#inicio">Início</a></li>
                     <li class="nav-item"><a class="nav-link fs-5" href="#servicos">Serviços</a></li>
-                    <li class="nav-item"><a class="nav-link fs-5" href="#por-que">Por Que Nós</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#pacotes">Pacotes</a></li>
                     <li class="nav-item"><a class="nav-link fs-5" href="#numeros">Números</a></li>
                     <li class="nav-item"><a class="nav-link fs-5" href="#contato">Contato</a></li>
                 </ul>
@@ -56,12 +52,12 @@
         </div>
     </nav>
 
-    <!-- HERO (MESMO CONTEÚDO, CORES AZURE) -->
+    <!-- HERO -->
     <section id="inicio" class="hero text-center">
         <div class="container">
             <h1 class="display-1 fw-bold" id="hero_title">WARNAT TECH ®</h1>
-            <h2 class="display-4 fw-bold text-azure mt-4" id="hero_subtitle">A SEGURANÇA MAIS FODA DE BELO HORIZONTE</h2>
-            <p class="lead display-6 mt-4" id="hero_text">CFTV 8K • MONITORAMENTO 24H COM REAÇÃO • PORTARIA REMOTA • ALARMES • CONTROLE DE ACESSO</p>
+            <h2 class="display-4 fw-bold text-azure mt-4" id="hero_subtitle">A MELHOR INSTALAÇÃO DE CÂMERAS DE SEGURANÇA DE BH</h2>
+            <p class="lead display-6 mt-4" id="hero_text">CFTV 8K COM IA • RECONHECIMENTO FACIAL • LEITURA DE PLACAS À NOITE • MONITORAMENTO 24H COM REAÇÃO</p>
             <a href="https://wa.me/5531983525816?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20or%C3%A7amento%20AGORA!" class="btn btn-warnat btn-lg mt-5 btn-whatsapp">
                 <i class="fab fa-whatsapp"></i> ORÇAMENTO EM 60 SEGUNDOS – (31) 98352-5816
             </a>
@@ -72,17 +68,38 @@
     <!-- SERVIÇOS -->
     <section id="servicos" class="bg-dark py-5">
         <div class="container">
-            <h2 class="text-center display-4 text-azure mb-5">SOLUÇÕES QUE REALMENTE PROTEGEM</h2>
-            <div class="row g-5" id="services_container">
-                <!-- Serviços carregados do content.json -->
+            <h2 class="text-center display-4 text-azure mb-5">SERVIÇOS QUE ENTREGAM SEGURANÇA DE VERDADE</h2>
+            <div class="row g-5" id="services_container"></div>
+        </div>
+    </section>
+
+    <!-- PACOTES DE CFTV COM PREÇOS (NOVA SEÇÃO) -->
+    <section id="pacotes" class="bg-black py-5">
+        <div class="container">
+            <h2 class="text-center display-4 text-azure mb-5">PACOTES PRONTOS – PREÇO FECHADO + INSTALAÇÃO INCLUSA</h2>
+            <div class="row g-5" id="packages_container">
+                <!-- Pacotes carregados automaticamente do content.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- NÚMEROS -->
+    <section id="numeros" class="bg-dark text-center py-5">
+        <div class="container">
+            <h2 class="display-4 text-azure mb-5">NÚMEROS QUE PROVAM NOSSA QUALIDADE</h2>
+            <div class="row">
+                <div class="col-md-3"><div class="stat-number">500+</div><p>Clientes Satisfeitos</p></div>
+                <div class="col-md-3"><div class="stat-number">12.000+</div><p>Câmeras Instaladas</p></div>
+                <div class="col-md-3"><div class="stat-number">24h</div><p>Monitoramento Real</p></div>
+                <div class="col-md-3"><div class="stat-number">5 anos</div><p>Garantia Total</p></div>
             </div>
         </div>
     </section>
 
     <!-- CONTATO -->
-    <section id="contato" class="bg-dark text-center py-5">
+    <section id="contato" class="bg-black text-center py-5">
         <div class="container">
-            <h2 class="display-4 text-azure">PROTEJA O QUE É SEU AGORA MESMO</h2>
+            <h2 class="display-4 text-azure">PROTEJA O QUE É SEU HOJE MESMO</h2>
             <p class="fs-2 mt-4" id="endereco">Rua dos Aimorés, 3017 – Barro Preto, Belo Horizonte – MG</p>
             <p class="display-5 mt-3" id="telefone">(31) 98352-5816</p>
             <a href="https://wa.me/5531983525816?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20quero%20or%C3%A7amento%20AGORA!" class="btn btn-warnat btn-lg mt-5 btn-whatsapp">
@@ -104,14 +121,15 @@
         fetch('/content.json')
           .then(r => r.json())
           .then(data => {
+            // Hero
             if (data.hero_title) document.getElementById('hero_title').innerText = data.hero_title;
             if (data.hero_subtitle) document.getElementById('hero_subtitle').innerText = data.hero_subtitle;
             if (data.hero_text) document.getElementById('hero_text').innerText = data.hero_text;
             if (data.endereco) document.getElementById('endereco').innerText = data.endereco;
             if (data.telefone) document.getElementById('telefone').innerText = data.telefone;
 
-            const container = document.getElementById('services_container');
-            container.innerHTML = '';
+            // Serviços
+            const servicesContainer = document.getElementById('services_container');
             data.services.forEach(s => {
               const col = document.createElement('div');
               col.className = 'col-lg-4';
@@ -119,9 +137,32 @@
                 <div class="card-servico p-5 text-center h-100">
                   <i class="${s.icon} fa-4x text-azure mb-4"></i>
                   <h3>${s.title}</h3>
-                  <p>${s.description}</p>
+                  <p>${s.description.replace(/\n/g, '<br>')}</p>
                 </div>`;
-              container.appendChild(col);
+              servicesContainer.appendChild(col);
+            });
+
+            // PACOTES (nova parte)
+            const packagesContainer = document.getElementById('packages_container');
+            data.packages.forEach(p => {
+              const col = document.createElementById('packages_container');
+              col.className = 'col-lg-4';
+              col.innerHTML = `
+                <div class="card-pacote p-5 text-center h-100">
+                  ${p.promocao ? '<span class="badge-promocao mb-3 d-inline-block">PROMOÇÃO RELÂMPAGO</span>' : ''}
+                  <h3>${p.name}</h3>
+                  <p class="fs-5 text-muted">${p.description}</p>
+                  <div class="my-4">
+                    \( {p.old_price ? `<span class="old-price me-3">De R \) ${p.old_price}</span>` : ''}
+                    <div class="price">R$ ${p.price}</div>
+                    <small class="text-muted">${p.parcelamento}</small>
+                  </div>
+                  \( {p.monitoramento ? `<p class="text-success fs-5"> \){p><strong>+ Monitoramento 24h por apenas R$ ${p.monitoramento}/mês</strong></p>` : ''}
+                  <a href="https://wa.me/5531983525816?text=Quero%20o%20pacote%20\( {encodeURIComponent(p.name)}%20por%20R \)%20${p.price}!" class="btn btn-warnat btn-whatsapp">
+                    QUERO ESSE PACOTE AGORA
+                  </a>
+                </div>`;
+              packagesContainer.appendChild(col);
             });
           });
     </script>
