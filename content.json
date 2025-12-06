@@ -1,39 +1,52 @@
 {
   "hero_title": "WarNat Tech ®",
   "hero_subtitle": "A MELHOR INSTALAÇÃO DE CÂMERAS DE SEGURANÇA DE BELO HORIZONTE",
-  "hero_text": "CFTV 2K 4k E 8K COM IA • INSTALAÇÃO RÁPIDA",
+  "hero_text": "CFTV 8K COM IA • RECONHECIMENTO FACIAL • LEITURA DE PLACAS À NOITE • MONITORAMENTO 24H COM REAÇÃO IMEDIATA • INSTALAÇÃO EM 24H OU É GRÁTIS",
+  "endereco": "Rua dos Aimorés, 3017 – Barro Preto, Belo Horizonte – MG",
   "telefone": "(31) 98352-5816",
   "services": [
     {
       "icon": "fas fa-video",
-      "title": "CFTV 2K,4k E 8K COM INTELIGÊNCIA ARTIFICIAL",
-      "description": "Câmeras Intelbras/Hikvision última geração com reconhecimento facial, leitura de placas à noite, visão noturna colorida, alerta em 2 segundos e gravação em nuvem criptografada."
+      "title": "CFTV 8K COM INTELIGÊNCIA ARTIFICIAL",
+      "description": "Câmeras Intelbras/Hikvision última geração com reconhecimento facial, leitura de placas à noite, visão noturna colorida, alerta em 2 segundos e gravação em nuvem."
     },
-    
+    {
+      "icon": "fas fa-shield-alt",
+      "title": "MONITORAMENTO 24H COM REAÇÃO IMEDIATA",
+      "description": "Central própria com equipe pronta para agir. Ligamos para você, vizinhos ou polícia em minutos."
+    },
     {
       "icon": "fas fa-tools",
       "title": "INSTALAÇÃO PROFISSIONAL + SUPORTE 24/7",
-      "description": "Projeto personalizado, cabeamento oculto, configuração perfeita e teste real. Instalação em até 24h ou é GRÁTIS. Garantia 5 anos + suporte técnico remoto e presencial."
+      "description": "Projeto personalizado, cabeamento oculto, configuração perfeita. Instalação em até 24h ou é GRÁTIS. Garantia 5 anos."
+    }
+  ],
+  "packages": [
+    {
+      "promocao": true,
+      "name": "PACOTE RESIDENCIAL BÁSICO",
+      "description": "4 câmeras Full HD 1080p\nDVR 8 canais com HD 1TB\nApp gratuito no celular\nInstalação completa + configuração",
+      "old_price": "5.990",
+      "price": "4.290",
+      "parcelamento": "em até 24x sem juros",
+      "monitoramento": "149"
     },
     {
-      "icon": "fas fa-network-wired",
-      "title": "INFRAESTRUTURA E REDES",
-      "description": "Planejamento e implantação de redes LAN/Wi-Fi\nConfiguração profissional de roteadores, switches, access points e firewalls\nCabeamento estruturado\nOtimização de velocidade e cobertura"
+      "promocao": true,
+      "name": "PACOTE RESIDENCIAL PREMIUM",
+      "description": "8 câmeras 4K com IA (reconhecimento facial + leitura de placas)\nNVR IP 16 canais com HD 2TB\nGravação em nuvem inclusa 30 dias",
+      "old_price": "12.990",
+      "price": "9.990",
+      "parcelamento": "em até 24x sem juros",
+      "monitoramento": "199"
     },
     {
-      "icon": "fas fa-server",
-      "title": "SERVIDORES, BACKUP E VIRTUALIZAÇÃO",
-      "description": "Instalação e configuração de Windows Server\nCriação de usuários, permissões e pastas compartilhadas\nRotinas automáticas de backup e recuperação de desastres\nVirtualização com Hyper-V ou VMware"
-    },
-    {
-      "icon": "fas fa-headset",
-      "title": "SUPORTE REMOTO E PRESENCIAL",
-      "description": "Diagnóstico rápido e solução de problemas (hardware e software)\nSuporte remoto imediato via AnyDesk/TeamViewer\nManutenção preventiva e corretiva\nAtendimento em até 2 horas em Belo Horizonte"
-    },
-    {
-      "icon": "fas fa-desktop",
-      "title": "MONTAGEM E MANUTENÇÃO DE COMPUTADORES",
-      "description": "Montagem de PCs sob medida com o melhor custo x desempenho do mercado\nUpgrades de SSD, RAM, placa de vídeo\nLimpeza completa, troca de pasta térmica\nFormatação e instalação de softwares"
+      "promocao": false,
+      "name": "PACOTE COMERCIAL / CONDOMÍNIO",
+      "description": "12 a 16 câmeras 4K/8K com IA\nNVR profissional + HD 4TB\nControle de acesso integrado opcional",
+      "price": "16.990",
+      "parcelamento": "em até 24x sem juros",
+      "monitoramento": "299"
     }
   ]
 }
