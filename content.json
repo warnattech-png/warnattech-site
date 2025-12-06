@@ -1,39 +1,14 @@
 {
   "hero_title": "WarNat Tech ®",
-  "hero_subtitle": "A MELHOR INSTALAÇÃO DE CÂMERAS DE SEGURANÇA DE BELO HORIZONTE",
-  "hero_text": "CFTV 8K COM IA • RECONHECIMENTO FACIAL • LEITURA DE PLACAS À NOITE • MONITORAMENTO 24H COM REAÇÃO IMEDIATA • INSTALAÇÃO EM 24H OU É GRÁTIS",
-  "endereco": "Rua dos Aimorés, 3017 – Barro Preto, Belo Horizonte – MG",
+  "hero_subtitle": "A SEGURANÇA PARA SUA CASA É SUA EMPRESA EM BELO HORIZONTE",
+  "hero_text": "CFTV 8K • MONITORAMENTO 24H",
   "telefone": "(31) 98352-5816",
   "services": [
-    {
-      "icon": "fas fa-video",
-      "title": "CFTV 8K COM INTELIGÊNCIA ARTIFICIAL",
-      "description": "Câmeras Intelbras/Hikvision de última geração com reconhecimento facial, leitura de placas mesmo à noite, visão noturna colorida Full Color, alerta em tempo real no celular e gravação em nuvem criptografada."
-    },
-    {
-      "icon": "fas fa-shield-alt",
-      "title": "MONITORAMENTO 24H COM REAÇÃO IMEDIATA",
-      "description": "Central própria com equipe pronta para agir. Não é só gravação – se algo acontecer, nós reagimos na hora (ligamos para você, vizinhos ou polícia)."
-    },
-    {
-      "icon": "fas fa-cloud",
-      "title": "GRAVAÇÃO E ACESSO EM NUVEM",
-      "description": "Acesse suas câmeras de qualquer lugar do mundo pelo app. Gravação ilimitada na nuvem + backup local. Nunca mais perca uma imagem importante."
-    },
-    {
-      "icon": "fas fa-tools",
-      "title": "INSTALAÇÃO PROFISSIONAL COMPLETA",
-      "description": "Projeto personalizado, cabeamento oculto, configuração perfeita do NVR/DVR, app no celular e teste real antes da entrega. Instalação em 24h ou é GRÁTIS."
-    },
-    {
-      "icon": "fas fa-headset",
-      "title": "SUPORTE TÉCNICO 24/7 E MANUTENÇÃO",
-      "description": "Suporte remoto imediato + visitas presenciais. Garantia estendida de 5 anos + manutenção preventiva inclusa nos contratos."
-    },
-    {
-      "icon": "fas fa-handshake",
-      "title": "PARCELAMENTO EM ATÉ 24X SEM JUROS",
-      "description": "Melhor preço de BH com qualidade premium. Aceitamos todos os cartões + financiamento próprio. Você paga depois de ver tudo funcionando."
-    }
+    { "icon": "fas fa-video", "title": "CFTV INTELIGENTE", "description": "Câmeras 8K com IA que identificam placas e rostos antes do marginal chegar." },
+    { "icon": "fas fa-shield-alt", "title": "MONITORAMENTO 24H COM REAÇÃO", "description": "Não é só gravação. Temos equipe armada pronta pra agir." },
+    { "icon": "fas fa-building", "title": "PORTARIA REMOTA", "description": "Economize 80% e tenha segurança 100%." },
+    { "icon": "fas fa-bell", "title": "ALARMES MONITORADOS", "description": "Alarme que grita, liga pra você e pra polícia." },
+    { "icon": "fas fa-key", "title": "CONTROLE DE ACESSO", "description": "Biometria, tag, facial. Só entra quem você quiser." },
+    { "icon": "fas fa-bolt", "title": "CERCA ELÉTRICA + SENSORE", "description": "Sistema completo com choque e alerta imediato." }
   ]
 }
