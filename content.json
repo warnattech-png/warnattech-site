@@ -1,19 +1,15 @@
 {
   "hero_title": "WarNat Tech ®",
   "hero_subtitle": "A MELHOR INSTALAÇÃO DE CÂMERAS DE SEGURANÇA DE BELO HORIZONTE",
-  "hero_text": "CFTV 8K COM IA • RECONHECIMENTO FACIAL • LEITURA DE PLACAS À NOITE • MONITORAMENTO 24H COM REAÇÃO • INSTALAÇÃO EM 24H OU É GRÁTIS",
+  "hero_text": "CFTV 2K 4k E 8K COM IA • INSTALAÇÃO RÁPIDA",
   "telefone": "(31) 98352-5816",
   "services": [
     {
       "icon": "fas fa-video",
-      "title": "CFTV 8K COM INTELIGÊNCIA ARTIFICIAL",
+      "title": "CFTV 2K,4k E 8K COM INTELIGÊNCIA ARTIFICIAL",
       "description": "Câmeras Intelbras/Hikvision última geração com reconhecimento facial, leitura de placas à noite, visão noturna colorida, alerta em 2 segundos e gravação em nuvem criptografada."
     },
-    {
-      "icon": "fas fa-shield-alt",
-      "title": "MONITORAMENTO 24H COM REAÇÃO IMEDIATA",
-      "description": "Central própria 24 horas com equipe pronta para agir. Se algo acontecer, nós reagimos na hora: ligação para você, vizinhos ou polícia."
-    },
+    
     {
       "icon": "fas fa-tools",
       "title": "INSTALAÇÃO PROFISSIONAL + SUPORTE 24/7",
